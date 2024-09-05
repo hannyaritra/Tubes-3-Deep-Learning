@@ -1,2 +1,4 @@
 # Tubes-3-Deep-Learning
-Prediksi Pelabelan Titik Buy, Sell, dan Hold pada Data Saham NVDA dengan Model Convolutional Neural Network (CNN)
+## Prediksi Pelabelan Titik Buy, Sell, dan Hold pada Data Saham NVDA dengan Model Convolutional Neural Network (CNN)
+
+Proyek ini menggunakan model Convolutional Neural Network (CNN) untuk memprediksi titik-titik buy, sell, dan hold pada saham NVIDIA Corporation (NVDA) berdasarkan data harga penutupan saham dari 1 November 1999 hingga 7 Juni 2024. Data tersebut diubah menjadi gambar dua dimensi melalui teknik sliding window untuk memanfaatkan kemampuan CNN dalam menangkap pola spasial. Model CNN yang terdiri dari tujuh lapisan, termasuk lapisan konvolusi dan pooling, dilatih dan dievaluasi menggunakan data latih, validasi, dan uji, dengan hasil akurasi sebesar 55,67% untuk data latih, 57,42% untuk data validasi, dan 54,36% untuk data uji. Meskipun model menunjukkan presisi yang tinggi untuk kelas hold, presisi untuk kelas buy dan sell masih rendah, menunjukkan perlunya pengembangan lebih lanjut untuk meningkatkan performa model dalam aplikasi perdagangan saham.
